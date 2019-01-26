@@ -10,6 +10,7 @@ class PigLatinizer
     if word[0] == vowels
 
     end
+  end
 
   end
 
