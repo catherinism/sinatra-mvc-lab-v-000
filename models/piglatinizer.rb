@@ -6,8 +6,8 @@ class PigLatinizer
 
     vowels = %w|A E I O U a e i o u|
     consonants = ""
-    binding.pry
-    if word[0] == vowels
+    #binding.pry
+    if vowels
 
     end
   end
