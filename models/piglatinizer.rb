@@ -11,8 +11,10 @@ class PigLatinizer
       consonants << word[0]
       word = word.split("")[1..-1].join
       "#{word}#{consonants}ay"
-      else vowels.include?(word[0])
+      else
+        while vowels.include?(word[0])
            "#{word}way"
+
        end
      end
 
