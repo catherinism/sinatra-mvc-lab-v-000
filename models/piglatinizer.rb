@@ -15,7 +15,7 @@ class PigLatinizer
       else
         while vowels.include?(word[0])
            "#{word}way"
-         end
+         
        end
      end
 
