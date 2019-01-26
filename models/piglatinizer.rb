@@ -6,7 +6,7 @@ class PigLatinizer
 
     vowels = %w|A E I O U a e i o u|
     consonants = ""
-    #binding.pry
+    binding.pry
     if vowels.include?(word[0])
          "#{word}way"
        else
