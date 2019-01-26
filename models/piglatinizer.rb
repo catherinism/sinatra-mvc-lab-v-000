@@ -5,7 +5,9 @@ class PigLatinizer
   def piglatinize(word)
     vowels = %w|A E I O U a e i o u|
     consonants = ""
-    #binding.pry
+    if word[0] == vowels
+
+    end
 
   end
 
